@@ -1,0 +1,34 @@
+{
+  "provider": {
+    "name": "CustomerApi.Host"
+  },
+  "consumer": {
+    "name": "CustomerApiServiceConsumer"
+  },
+  "interactions": [
+    {
+      "description": "A GET request to retrieve the customer",
+      "provider_state": "There is a customer with id 1",
+      "request": {
+        "method": "get",
+        "path": "/api/customers/1",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "Id": 1,
+          "FullName": "Gökhan Gökalp"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecificationVersion": "1.1.0"
+  }
+}
