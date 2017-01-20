@@ -1,5 +1,5 @@
 ﻿using System.Web.Http;
-using Entities;
+using Contracts;
 
 namespace CustomerApi.Host.Controllers
 {

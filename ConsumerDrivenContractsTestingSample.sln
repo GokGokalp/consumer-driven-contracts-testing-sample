@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Provider", "Service Provider", "{A7B8C3BB-B50E-4EBC-A66A-EF0101E1EE50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{55DF8449-945C-461C-8D2A-C38C217FCBC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{55DF8449-945C-461C-8D2A-C38C217FCBC4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Consumer", "Service Consumer", "{65EF0B8D-8BCB-43FE-86DB-7006E3B35B63}"
 EndProject

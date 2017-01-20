@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Entities;
+using Contracts;
 using PactNet.Mocks.MockHttpService;
 using PactNet.Mocks.MockHttpService.Models;
 using Xunit;

@@ -1,4 +1,4 @@
-﻿using Entities;
+﻿using Contracts;
 using RestSharp;
 
 namespace CustomerApiServiceConsumer

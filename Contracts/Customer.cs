@@ -1,4 +1,4 @@
-﻿namespace Entities
+﻿namespace Contracts
 {
     public class Customer
     {
